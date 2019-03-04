@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+}
+
+#navbar {
+	padding: 10px;
+	min-height: 40px;
+	background-color: #000000;
+	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+}
+
+#navbar img{
+	padding: 25px;
+}
+
+#navbar a{
+	color: #ffffff;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 15px;	
+	padding: 25px;
+}	
+
+header {
+	background: #3399ff;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+
+#calltoaction{
+	padding: 20px;
+	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+}
+
+#calltoaction button{
+	background: blue;
+	color: #ffffff;
+	border-style: none;
+	font-size: 20px;
+	width: 250px;
+	height:75px;
+	opacity: 0.5;
+}
+
+#calltoaction a{
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 25px;
+	height: 15px;
+}
+#info-rightside{
+	flex-direction: column;
+}
+#computer{
+	align-self: flex-end;
+  	max-width: 100%;
+  	max-height: 300px;
+  	margin-left: 450px;
+}
+
+#content-container{
+  margin: auto;
+  left: 30px;
+}
+
+#main-content{
+	font-family: sans-serif;
+	font-size: 15px;
+	padding: 25px;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    height: 300px;
+}
+
+#aside {
+	float: right;
+	background-color: #373737;
+	color: #ffffff;
+	padding: 10px;
+	width: 15%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}	
+
+#icons {
+	display: flex;
+  	justify-content: space-around;
+  	align-items: center;
+}
+
+#callband{
+	background-color: #f4f4f4;
+	font-family: sans-serif;
+	color: #373737;
+	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	font-size: 25px;
+  	padding-right: 20px;
+  	padding-left: 20px;
+
+}
+
+#email-signup button{
+	background: #3399ff;
+	color: #ffffff;
+	border-style: none;
+	font-size: 20px;
+	height: 40px;
+	width: 90px;
+}
+
+#email-signup input{
+	font-size: 20px;
+	height: 35px;
+	width: 350px;
+}
+#footer{
+	padding: 10px;
+	min-height: 40px;
+	font-family: sans-serif;
+	font-size: 15px;
+	background-color: #373737;
+	color: #ffffff;
+	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  	padding-right: 20px;
+  	padding-left: 20px;
+}
+#footer a{
+	color: #ffffff;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 15px;	
+	padding: 25px;
+}
+
+
